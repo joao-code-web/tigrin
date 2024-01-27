@@ -1,14 +1,17 @@
 {
   "devDependencies": {
     "@types/node": "^20.11.6",
+    "nodemon": "^3.0.3",
     "prisma": "^5.8.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "name": "controlefina",
   "version": "1.0.0",
   "main": "server.ts",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "start": "ts-node src/server.ts",
+    "build": "tsx watch src/server.ts"
   },
   "author": "",
   "license": "ISC",
