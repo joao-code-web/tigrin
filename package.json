@@ -10,8 +10,8 @@
   "version": "1.0.0",
   "main": "server.ts",
   "scripts": {
-    "start": "ts-node src/server.ts",
-    "build": "tsx watch src/server.ts"
+    "build": "tsc --watch",
+    "dev": "tsx watch src/server.ts"
   },
   "author": "",
   "license": "ISC",
