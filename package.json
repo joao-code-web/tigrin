@@ -10,7 +10,7 @@
   "version": "1.0.0",
   "main": "server.ts",
   "scripts": {
-    "start": "tsc --watch",
+    "build": "tsc --watch",
     "dev": "tsx watch src/server.ts"
   },
   "author": "",
