@@ -6,6 +6,9 @@ import { UpdateTransactionController } from "./controllers/UptadeTransactionCont
 
 
 export async function routes(fastify: FastifyInstance, options: FastifyPluginOptions) {
+    fastify.get("/DALE", (req: FastifyRequest, reply: FastifyReply) => {
+        reply.send("<h1>ajkslaks</h1>");
+    })
     fastify.get("/", (req: FastifyRequest, reply: FastifyReply) => {
         return new allTransactionsController().handle(req, reply)
     })
