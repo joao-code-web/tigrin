@@ -10,9 +10,9 @@
   "version": "1.0.0",
   "main": "server.ts",
   "scripts": {
-    "produ": "tsc --watch",
+    "build": "tsc --watch",
     "dev": "tsx watch src/server.ts",
-    "build": "node dist/server.js"
+    "produ": "node dist/server.js"
   },
   "author": "",
   "license": "ISC",
